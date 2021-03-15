@@ -31,7 +31,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDL Bot
 
-I can download video or audio from Youtube. Made by @ImJanindu 🇱🇰
+I can download video or audio from Youtube. Made by ⚡ ⚡ Sithum Batrow 🇱🇰⚡⚡ @sibatrow
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -42,7 +42,7 @@ Hit help button to find out more about how to use me</b>""",
                                             "Channel", url="https://t.me/Infinity_BOTs")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "score code", url="https://github.com/ImJanindu/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
