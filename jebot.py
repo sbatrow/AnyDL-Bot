@@ -39,10 +39,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
-                                    ],[
-                                      InlineKeyboardButton(
-                                            "score code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "developer", url="https://t.me/sibatrow")
+                                    
+                                      
+                                            
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -64,9 +64,9 @@ Just send a Youtube url to download it in video or audio format!
                                             "Back", callback_data="start"),
                                         InlineKeyboardButton(
                                             "About", callback_data="about"),
-                                  ],[
-                                        InlineKeyboardButton(
-                                            "Source Code ", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                 
+                                       
+                                            
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -79,7 +79,7 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/sibatrow">⚡ ⚡ Sithum Batrow 🇱🇰⚡⚡</a>
 
 <b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
 
@@ -90,8 +90,8 @@ async def about(client, message):
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
-                                        InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                        
+                                            
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -236,8 +236,8 @@ async def send_video(message: Message, info_dict, video_file):
                         callback_data="forward_video"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🇱🇰",
-                        url="https://t.me/Infinity_BOTs"
+                        "Developer 🇱🇰",
+                        url="https://t.me/sibatrow"
                     )
                 ]
             ]
@@ -299,7 +299,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+⚡ ⚡ Sithum Batrow 🇱🇰⚡⚡
 """
 )
 
